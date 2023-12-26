@@ -5,9 +5,9 @@ PromptPlus is a Chrome extension built with the [Plasmo framework](https://docs.
 ## Features
 
 - User-friendly interface for entering prompts.
-- Seamless integration with the ChatGPT language model.
+- Seamless integration with the large language models.
 - Utilizes Plasmo Messaging API for efficient communication.
-- Developed with React.js, Tailwind CSS, Typescript, react-form-hook, and zod for a robust and modern frontend.
+- Developed with Plasmo, Tailwind CSS, Typescript, react-form-hook, and zod for a robust and modern frontend and with Next.js and AI sdk for effecient and seamless backend.
 
 ## Technologies Used
 
