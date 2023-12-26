@@ -1,0 +1,43 @@
+{
+  "name": "client",
+  "displayName": "PromptPlus",
+  "version": "0.0.1",
+  "description": "A convenient interface to input prompts and receive outputs from the LLMs.",
+  "author": "Sagar Gund",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.3",
+    "@plasmohq/messaging": "^0.6.1",
+    "lucide-react": "^0.302.0",
+    "plasmo": "0.84.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.49.2",
+    "tailwindcss": "3.3.5",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "4.1.1",
+    "@types/chrome": "0.0.251",
+    "@types/node": "20.9.0",
+    "@types/react": "18.2.37",
+    "@types/react-dom": "18.2.15",
+    "autoprefixer": "^10.4.16",
+    "postcss": "8.4.31",
+    "prettier": "3.0.3",
+    "typescript": "5.2.2"
+  },
+  "manifest": {
+    "host_permissions": [
+      "https://*/*",
+      "http://localhost:3000/api/chat"
+    ],
+    "permissions": [
+      "tabs"
+    ]
+  }
+}
